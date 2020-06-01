@@ -1,0 +1,48 @@
+<nav class="navbar navbar-light bg-light">
+        <div><i class="tweet fab fa-twitter fa-fw blue-text"></i></div>
+    <div>
+        <button class="btn btn-primary">Se connecter</button>
+        <button class="btn btn-success">S'incrire</button>    
+    </div>        
+</nav>
+<div class="shadow-lg p-3 mb-5 bg-white rounded"></div> 
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <h2>Éditer</h2>
+            <div class="card">
+                <div class="card-body">
+                    <form action="/editer/{{utilisateur.id_utilisateur}}" method="POST">
+                        <div class="form-group">
+                            <input type="text" value="{{utilisateur.nom}}" name="nom" class="form-control" placeholder="Nom" autofocus>
+                        </div>
+                         <div class="form-group">
+                            <input type="text" value="{{utilisateur.prenom}}" name="prenom" class="form-control" placeholder="Prenom" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="{{utilisateur.email}}" name="email" class="form-control" placeholder="Email" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" value="{{utilisateur.date_de_naissance}}" name="date_de_naissance" class="form-control" placeholder="Date Naissance" autofocus>Date Naissance
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="{{utilisateur.sexe}}" name="sexe" class="form-control" placeholder="Sexe" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="{{utilisateur.ville}}" name="ville" class="form-control" placeholder="Ville" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="{{utilisateur.password}}" name="password" class="form-control" placeholder="Mot de passe" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary  btn-block">
+                                Envoie
+                            </button>
+                        </div>
+                    </form>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+

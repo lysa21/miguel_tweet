@@ -1,0 +1,323 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  .tweet{
+    color: #06A7EE;
+    font-size: 2.5rem;
+    margin-left: 45%;
+  }
+  .blue{
+    color: #06A7EE;
+    font-size: 2.5rem;
+    margin-left: 20%;
+  }
+  .primary{
+    background-color: rgb(171, 218, 224);
+      color: white;
+  }
+  .secundary{
+    background-color: rgb(197, 197, 197);
+    color: white;
+  }
+  .card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+  }
+  
+  .form-signin {
+    width: 100%;
+  }
+  
+  .form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+  
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+/*----------------------------accueil-----------------------------*/
+.img{
+  background-position-x: center; 
+}
+.button{
+  margin-left: 20%;
+  background-color: white;
+  color: #06A7EE;
+}
+.button-1{
+  width: 40%;
+}
+
+.button-3{
+  margin-left: 10%;
+}
+.bton{
+  width: 10%;
+}
+
+ /*----------------------------home-----------------------------*/
+ .menu{
+  border-color: white;
+  color: #06A7EE;;
+  text-align: left;
+  margin-top: 5%;
+}
+.button-2{
+  width: 40%;
+  background-color: #06A7EE;
+  text-align: center;
+  color: white;
+  margin-left: 30%;
+}
+
+.button-4{
+  width: 15%;
+  background-color: #06A7EE;
+  text-align: center;
+  color: white;
+  margin:0 0 0 80%;
+}
+.photo{
+  margin: 10% 40%;
+  border: black 1px solid;
+  border-radius: 100%;
+  width: 60px;
+
+}
+.photo2{
+  margin: 0 0 0% 5%;
+  border: black 1px solid;
+  border-radius: 100%;
+  width: 60px;
+
+}
+h4{
+  text-align: center;
+}
+h3{
+  margin-left: 5%;
+}
+.separador{
+  border: #E0E7EA 1px solid;
+  height: 10px;
+  background-color: #E0E7EA;
+
+}
+.textarea{
+  border-color: white;
+  width: 80%;
+  height: 20%;
+  margin:-10% 0 0 20%;
+}
+.follow {
+  justify-content: space-between;
+  width: 100%;
+  }
+
+  .section-a{
+    width: 30vw;
+    height: 10vh;
+    border: solid 1px black;
+  }
+
+  .section-b{
+    width: 30vw;
+    height: 10vh;
+    border: solid 1px black;
+  }
+  
+  .section-c{
+    width: 30vw;
+    height: 10vh;
+    border: solid 1px black;
+  }
+
+  /*----------------------------tweet-----------------------------*/
+  .nav{
+    border: solid 1px #E0E7EA; 
+  }
+  .main {
+    display:flex; 
+    justify-content: space-between;
+    width: 100%;
+    }
+
+    .section-1{
+      flex:1;
+      height: 100vh;
+      min-width: 300px;
+      max-width: 300px;
+      /*border: solid 1px black; */
+    }
+
+    .section-2{
+      flex:1;
+      height: 100vh;
+      min-width: 300px;
+      max-width: 900px;
+      border: solid 1px #E0E7EA;
+      overflow: scroll; 
+    }
+    
+    .section-3{
+        flex:2;
+        min-width: 300px;
+        max-width: 500px; 
+        /*border: solid 1px black;*/
+    }
+
+    #section_2_grid {
+      margin-left: 5%;
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      width: 50%;
+  }
+
+      #boite-1{
+        grid-row: 1;
+        grid-column: 1/2;
+        width: 10vw;
+        height: 15vh;
+        background-color: rgb(221, 17, 17);
+      }
+      
+      #boite-2{
+          grid-row: 1;
+          grid-column: 2/3;
+          width: 10vw;
+          height: 15vh;
+          background-color: blueviolet;
+      }
+      
+      #boite-3{
+          grid-row: 1;
+          grid-column: 3/3;
+          width: 10vw;
+          height: 15vh;
+          background-color: black;
+      }
+      
+      #boite-4{
+          grid-row: 2;
+          grid-column: 1/2;
+          width: 10vw;
+          height: 15vh;
+          background-color: blueviolet;
+      }
+      
+      #boite-5{
+          grid-row: 2;
+          grid-column: 2/3;
+          width: 10vw;
+          height: 15vh;
+          background-color: brown;
+      }
+      #boite-6{
+          grid-row: 2;
+          grid-column: 3/4;
+          width: 10vw;
+          height: 15vh;
+          background-color:  blueviolet;
+      }

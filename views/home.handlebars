@@ -1,0 +1,39 @@
+{{> header}}
+
+
+<div class="section-2">
+    <h3>Home</h3>
+    <hr class="my-4">
+
+    <form class="form-signin" action="/home" method="POST">
+        <img class="photo2" src="./img/photo3.jpg" alt="">
+        <div class="form-group">
+            <textarea cols="0" rows="5" name="text" class="form-control textarea" placeholder="Ce qui se passe?"
+                autofocus></textarea>
+        </div>
+        <button class="button-4 btn btn-lg btn-primary primary btn-block text-uppercase" type="submit">Tweet</button>
+    </form>
+
+    <div class="separador"></div>
+    {{>inscrit parameter=tweets}}
+</div>
+
+<div class="section-3">
+    <div class="form-label-group">
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputEmail">Recherche twitter</label>
+    </div>
+    <div class="follow">
+        <h4>Tendances pour vous</h4>
+        <div class="section-a"></div>
+        <div class="section-b"></div>
+        <div class="section-c"></div>
+    </div>
+    <div class="follow">
+        <h4>Follows</h4>
+        <div class="section-a"></div>
+        <div class="section-b"></div>
+        <div class="section-c"></div>
+    </div>
+
+</div>
